@@ -7,7 +7,7 @@ public class MapSample {
 		Map<String,String> map = new HashMap<String,String>();
 
 
-		//’l‚ÌƒZƒbƒg‚Í put ƒƒ\ƒbƒh‚ğ—˜—p
+		//ï¿½lï¿½ÌƒZï¿½bï¿½gï¿½ï¿½ put ï¿½ï¿½ï¿½\ï¿½bï¿½hï¿½ğ—˜—p
 		map.put("key1", "value1");
 		map.put("key2", "value2");
 		map.put("key3", "value3");
@@ -15,23 +15,23 @@ public class MapSample {
 		map.put("key5", "value5");
 
 
-		//’l‚Ìæ“¾
-		String value = map.get("key1"); //value1 ‚ªæ“¾‚Å‚«‚é
+		//ï¿½lï¿½Ìæ“¾
+		String value = map.get("key1"); //value1 ï¿½ï¿½ï¿½æ“¾ï¿½Å‚ï¿½ï¿½ï¿½
 		System.out.println(value);
 
-		String valueNull = map.get("key6"); //‘¶İ‚µ‚È‚¢ key ‚Ìê‡‚Í null
+		String valueNull = map.get("key6"); //ï¿½ï¿½ï¿½İ‚ï¿½ï¿½È‚ï¿½ key ï¿½Ìê‡ï¿½ï¿½ null
 		System.out.println(valueNull);
 
 
-		//map ‚ÉŠY“–‚·‚é key ‚ª‘¶İ‚·‚é‚©”Û‚©ƒ`ƒFƒbƒN‚·‚é‚±‚Æ‚à‰Â”\
+		//map ï¿½ÉŠYï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ key ï¿½ï¿½ï¿½ï¿½ï¿½İ‚ï¿½ï¿½é‚©ï¿½Û‚ï¿½ï¿½`ï¿½Fï¿½bï¿½Nï¿½ï¿½ï¿½é‚±ï¿½Æ‚ï¿½ï¿½Â”\
 		if(map.containsKey("key1")){
-			System.out.println("key1 ‚Í‘¶İ‚µ‚Ü‚·");
+			System.out.println("key1 ã¯å­˜åœ¨ã—ã¾ã™");
 		}else{
-			System.out.println("key1 ‚Í‘¶İ‚µ‚Ü‚¹‚ñ");
+			System.out.println("key1 ã¯å­˜åœ¨ã—ã¾ã›ã‚“");
 		}
 
 
-		//Šg’£ for •¶‚ğ—˜—p‚µ‚Ä‚·‚×‚Äî•ñ‚ğæ“¾‚·‚é
+		//ï¿½gï¿½ï¿½ for ï¿½ï¿½ï¿½ğ—˜—pï¿½ï¿½ï¿½Ä‚ï¿½ï¿½×‚Äï¿½ï¿½ï¿½ï¿½æ“¾ï¿½ï¿½ï¿½ï¿½
 		for(Map.Entry<String, String> e : map.entrySet()){
 			System.out.println(e.getKey() + ":" + e.getValue());
 		}
