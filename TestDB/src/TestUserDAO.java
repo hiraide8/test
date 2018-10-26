@@ -156,7 +156,7 @@ public void delete(String name){
 	try{
 		PreparedStatement ps = con.prepareStatement(sql);
 		ps.setString(1, name);
-		int i=ps.excuteUpdate();
+		int i=ps.executeUpdate();
 		if(i>0){
 			System.out.println(i + "件削除されました");
 		}
