@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 3 elements from プロジェクト &apos;WebProj3&apos;&#x0D;&#x0A;- 元のプロジェクト: &apos;WebProj3&apos;&#x0D;&#x0A;- オリジナル要素:&#x0D;&#x0A;     WebProj3/src/com.internousdev.webproj3.dao&#x0D;&#x0A;     WebProj3/src/com.internousdev.webproj3.dto&#x0D;&#x0A;     WebProj3/src/com.internousdev.webproj3.util" description="要素の削除" element1="/src&lt;com.internousdev.webproj3.util" element2="/src&lt;com.internousdev.webproj3.dto" element3="/src&lt;com.internousdev.webproj3.dao" elements="3" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1542631569879" subPackages="false" version="1.0"/>
+</session>
