@@ -18,6 +18,8 @@ public class HelloStrutsAction extends ActionSupport{
 
 		if(HelloStrutsDTOList.size() > 0){
 			ret = SUCCESS;
+		}else{
+			ret = ERROR;
 		}
 		return ret;
 	}
