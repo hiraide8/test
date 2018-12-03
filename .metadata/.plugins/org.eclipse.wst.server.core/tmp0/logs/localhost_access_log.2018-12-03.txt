@@ -1,0 +1,14 @@
+127.0.0.1 - - [03/Dec/2018:20:28:19 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [03/Dec/2018:20:28:22 +0900] "GET /WebProj5/ HTTP/1.1" 200 603
+0:0:0:0:0:0:0:1 - - [03/Dec/2018:20:28:27 +0900] "POST /WebProj5/HelloStrutsAction.action;jsessionid=65608E8FCA11EF6AB11678BF924325F7 HTTP/1.1" 200 9436
+0:0:0:0:0:0:0:1 - - [03/Dec/2018:20:28:35 +0900] "POST /WebProj5/HelloStrutsAction.action;jsessionid=65608E8FCA11EF6AB11678BF924325F7 HTTP/1.1" 200 9436
+0:0:0:0:0:0:0:1 - - [03/Dec/2018:20:39:30 +0900] "POST /WebProj5/HelloStrutsAction.action;jsessionid=65608E8FCA11EF6AB11678BF924325F7 HTTP/1.1" 200 9436
+0:0:0:0:0:0:0:1 - - [03/Dec/2018:20:39:33 +0900] "GET /WebProj5/ HTTP/1.1" 200 559
+0:0:0:0:0:0:0:1 - - [03/Dec/2018:20:39:35 +0900] "POST /WebProj5/HelloStrutsAction.action HTTP/1.1" 200 9436
+127.0.0.1 - - [03/Dec/2018:20:40:34 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [03/Dec/2018:20:40:36 +0900] "GET /WebProj5/ HTTP/1.1" 200 559
+0:0:0:0:0:0:0:1 - - [03/Dec/2018:20:40:38 +0900] "POST /WebProj5/HelloStrutsAction.action HTTP/1.1" 200 9436
+0:0:0:0:0:0:0:1 - - [03/Dec/2018:20:40:53 +0900] "POST /WebProj5/HelloStrutsAction.action HTTP/1.1" 200 9436
+0:0:0:0:0:0:0:1 - - [03/Dec/2018:20:53:08 +0900] "GET /WebProj5/ HTTP/1.1" 200 559
+0:0:0:0:0:0:0:1 - - [03/Dec/2018:20:53:13 +0900] "POST /WebProj5/HelloStrutsAction.action HTTP/1.1" 200 855
+0:0:0:0:0:0:0:1 - - [03/Dec/2018:20:53:13 +0900] "GET /WebProj5/css/style.css HTTP/1.1" 200 1433
