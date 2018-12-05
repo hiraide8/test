@@ -17,7 +17,7 @@ public class LoginAction extends ActionSupport implements SessionAware{
 	private Map<String, Object> session;
 
 	public String execute(){
-		String ret = SUCCESS;
+		String ret = ERROR;
 		System.out.println(username);
 		System.out.println(password);
 		LoginDAO dao = new LoginDAO();
