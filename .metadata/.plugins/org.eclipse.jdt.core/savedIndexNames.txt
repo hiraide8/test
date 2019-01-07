@@ -33,7 +33,6 @@ INDEX VERSION 1.127+C:\Users\testuser\Desktop\workspace\workspace-hiraide\test\.
 1197092495.index
 3101554382.index
 1525658733.index
-330804749.index
 3776972795.index
 2998508884.index
 1303200212.index
