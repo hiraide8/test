@@ -49,6 +49,10 @@ public class LoginAction extends ActionSupport implements SessionAware{
 		this.loginPassword = loginPassword;
 	}
 
+	public Map<String, Object> getSession(){
+		return session;
+	}
+
 	@Override
 	public void setSession(Map<String, Object> session){
 		this.session = session;
