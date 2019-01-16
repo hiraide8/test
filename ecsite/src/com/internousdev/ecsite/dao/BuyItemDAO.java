@@ -7,9 +7,9 @@ import com.internousdev.ecsite.dto.BuyItemDTO;
 import com.internousdev.ecsite.util.DBConnector;
 
 public class BuyItemDAO {
-	private DBConnector dbConnector = new DBConnector();
-	private Connection connection = dbConnector.getConnection();
-	private BuyItemDTO buyItemDTO = new BuyItemDTO();
+	DBConnector dbConnector = new DBConnector();
+	Connection connection = dbConnector.getConnection();
+	BuyItemDTO buyItemDTO = new BuyItemDTO();
 
 	public BuyItemDTO getBuyItemInfo(){
 		String sql = "SELECT id,item_name,item_price FROM item_info_transaction";
