@@ -65,6 +65,9 @@
                        <p>ItemCreate</p>
                </div>
                <div>
+                       <s:if test='errorMessage != "" '>
+                                 <s:property value="errorMessage" escape="false"/>
+                       </s:if>
                        <table>
                        <s:form action="ItemCreateConfirmAction">
                                  <tr>
@@ -72,7 +75,7 @@
                                                 <label>商品名:</label>
                                         </td>
                                         <td>
-                                                <input type="text" name=""/>
+                                                <input type="text" name="itemName"/>
                                         </td>
                                  </tr>
                                  <tr>
@@ -80,7 +83,7 @@
                                                 <label>商品価格:</label>
                                         </td>
                                         <td>
-                                                <input type="text" name=""/>円
+                                                <input type="text" name="itemPrice"/>円
                                         </td>
                                  </tr>
                                  <tr>
@@ -88,7 +91,7 @@
                                                 <label>在庫数:</label>
                                         </td>
                                         <td>
-                                                <input type="text" name=""/>個
+                                                <input type="text" name="itemStock"/>個
                                         </td>
                                  </tr>
                                  <s:submit value="登録"/>
