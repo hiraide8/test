@@ -1,0 +1,28 @@
+package com.internousdev.ecsite.action;
+
+import com.internousdev.ecsite.dao.ItemListDeleteCompleteDAO;
+import com.opensymphony.xwork2.ActionSupport;
+
+public class ItemListDeleteCompleteAction extends ActionSupport{
+	ItemListDeleteCompleteDAO itemListDeleteCompleteDAO = new ItemListDeleteCompleteDAO();
+	private String deleteFlg;
+	private String message;
+
+
+	public String getDeleteFlg(){
+		return deleteFlg;
+	}
+
+	public void setDeleteFlg(String deleteFlg){
+		this.deleteFlg = deleteFlg;
+	}
+
+	public String getMessage(){
+		return message;
+	}
+
+	public void setMessage(String message){
+		this.message = message;
+	}
+
+}

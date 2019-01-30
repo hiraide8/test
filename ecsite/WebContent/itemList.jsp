@@ -70,7 +70,7 @@
                         <h3>商品情報はありません。</h3>
                </s:if>
                <s:else>
-                        <h3>商品情報は以下になります。</h3>
+                        <h3>商品一覧は以下になります。</h3>
                         <table border="1">
                         <tr>
                                  <th>商品名</th>
@@ -87,6 +87,9 @@
                         </tr>
                         </s:iterator>
                         </table>
+                        <s:form action="ItemListDeleteConfirmAction">
+                                 <s:submit value="削除"/>
+                        </s:form>
                </s:else>
                <div id="text-right">
                    <p>管理者画面へ戻る場合は<a href='<s:url action="AdminAction"/>'>こちら</a></p>

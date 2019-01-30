@@ -81,5 +81,16 @@
                     <action name="ItemListAction" class="com.internousdev.ecsite.action.ItemListAction" method="execute">
                              <result name="success">itemList.jsp</result>
                     </action>
+
+                    <!-- UserListAction -->
+                    <action name="UserListAction" class="com.internousdev.ecsite.action.UserListAction" method="execute">
+                             <result name="success">userList.jsp</result>
+                    </action>
+
+                    <!-- ItemListDeleteConfirmAction -->
+                    <action name="ItemListDeleteConfirmAction" class="com.internousdev.ecsite.action.ItemListDeleteConfirmAction" method="execute">
+                             <result name="success">itemListDeleteConfirm.jsp</result>
+                    </action>
+
         </package>
 </struts>
