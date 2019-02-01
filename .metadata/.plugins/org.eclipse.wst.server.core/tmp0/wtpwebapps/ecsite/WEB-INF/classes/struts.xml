@@ -92,5 +92,20 @@
                              <result name="success">itemListDeleteConfirm.jsp</result>
                     </action>
 
+                    <!-- ItemListDeleteCompleteAction -->
+                    <action name="ItemListDeleteCompleteAction" class="com.internousdev.ecsite.action.ItemListDeleteCompleteAction" method="execute">
+                             <result name="success">itemListDeleteComplete.jsp</result>
+                    </action>
+
+                    <!-- UserListDeleteConfirmAction -->
+                    <action name="UserListDeleteConfirmAction" class="com.internousdev.ecsite.action.UserListDeleteConfirmAction" method="execute">
+                             <result name="success">userListDeleteConfirm.jsp</result>
+                    </action>
+
+                    <!-- UserListDeleteCompleteAction -->
+                    <action name="UserListDeleteCompleteAction" class="com.internousdev.ecsite.action.UserListDeleteCompleteAction" method="execute">
+                             <result name="success">userListDeleteComplete.jsp</result>
+                    </action>
+
         </package>
 </struts>
