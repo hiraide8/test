@@ -11,7 +11,7 @@ public class UserListDeleteCompleteDAO {
 	Connection connection = dbConnector.getConnection();
 
 	public int userListDelete() throws SQLException{
-		String sql = "DELETE FROM login_user_transaction";
+		String sql = "DELETE FROM login_user_transaction WHERE id != 1";
 		PreparedStatement preparedStatement;
 		int result = 0;
 

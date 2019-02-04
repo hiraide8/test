@@ -97,6 +97,10 @@
                                  <s:submit value="登録"/>
                        </s:form>
                        </table>
+                       <div>
+                                 <span>管理者画面に戻る場合は</span>
+                                 <a href='<s:url action="AdminAction"/>'>こちら</a>
+                       </div>
                </div>
        </div>
        <div id="footer">

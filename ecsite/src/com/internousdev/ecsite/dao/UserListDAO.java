@@ -14,7 +14,7 @@ public class UserListDAO {
 
 	public ArrayList<UserInfoDTO> getUserListInfo() throws SQLException{
 		ArrayList<UserInfoDTO> userInfoDTO = new ArrayList<UserInfoDTO>();
-		String sql = "SELECT user_name, login_id, login_pass, insert_date FROM login_user_transaction ORDER BY insert_date DESC";
+		String sql = "SELECT user_name, login_id, login_pass, insert_date FROM login_user_transaction WHERE id != 1 ORDER BY insert_date DESC";
 
 		try{
 			PreparedStatement preparedStatement = connection.prepareStatement(sql);

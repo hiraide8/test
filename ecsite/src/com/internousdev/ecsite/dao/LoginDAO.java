@@ -28,14 +28,14 @@ public class LoginDAO {
 				if(!(resultSet.getString("login_id").equals(null))){
 					loginDTO.setLoginFlg(true);
 				}
+
+				if(!(resultSet.getString("admin_flg").equals(null))){
+					loginDTO.setAdminFlg(true);
+				}
 			}
 		}catch(Exception e){
 			e.printStackTrace();
 		}
-		return loginDTO;
-	}
-
-	public LoginDTO getLoginDTO(){
 		return loginDTO;
 	}
 

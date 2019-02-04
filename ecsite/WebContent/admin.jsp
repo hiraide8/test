@@ -10,7 +10,7 @@
        <meta http-equiv="imagetoolbar" content="no"/>
        <meta name="descripttion" content=""/>
        <meta name="keywords" content=""/>
-       <title>管理者画面</title>
+       <title>Admin画面</title>
        <style type="text/css">
        /* ========TAG LAYOUT======== */
                 body{
@@ -77,7 +77,7 @@
        </div>
        <div id="main">
                <div id="top">
-                       <p>管理者画面</p>
+                       <p>Admin</p>
                </div>
                <div class="aaa">
                <p class="bbb">商品</p>
@@ -116,6 +116,9 @@
                        </td>
                        </tr>
                        </table>
+               </div>
+               <div>
+                       <p>ログアウトする場合は<a href='<s:url action="LogoutAction"/>'>こちら</a></p>
                </div>
        </div>
        <div id="footer">

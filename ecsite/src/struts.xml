@@ -21,6 +21,7 @@
                     <action name="LoginAction" class="com.internousdev.ecsite.action.LoginAction" method="execute">
                              <result name="success">buyItem.jsp</result>
                              <result name="error">login.jsp</result>
+                             <result name="admin">admin.jsp</result>
                     </action>
 
                     <!-- UserCreateAction -->
@@ -105,6 +106,11 @@
                     <!-- UserListDeleteCompleteAction -->
                     <action name="UserListDeleteCompleteAction" class="com.internousdev.ecsite.action.UserListDeleteCompleteAction" method="execute">
                              <result name="success">userListDeleteComplete.jsp</result>
+                    </action>
+
+                    <!-- AdminAction -->
+                    <action name="AdminAction" class="com.internousdev.ecsite.action.AdminAction" method="execute">
+                             <result name="success">admin.jsp</result>
                     </action>
 
         </package>
