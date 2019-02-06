@@ -118,7 +118,7 @@
                        </table>
                </div>
                <div>
-                       <p>ログアウトする場合は<a href='<s:url action="LogoutAction"/>'>こちら</a></p>
+                       <p>Homeへ戻る場合は<a href='<s:url action="LogoutAction"/>'>こちら</a></p>
                </div>
        </div>
        <div id="footer">
