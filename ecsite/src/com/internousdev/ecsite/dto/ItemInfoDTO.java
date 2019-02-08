@@ -30,11 +30,11 @@ public class ItemInfoDTO {
 		this.itemStock = itemStock;
 	}
 
-	public String getInsert_Date(){
+	public String getInsert_date(){
 		return insert_date;
 	}
 
-	public void setInsert_Date(String insert_date){
+	public void setInsert_date(String insert_date){
 		this.insert_date = insert_date;
 	}
 

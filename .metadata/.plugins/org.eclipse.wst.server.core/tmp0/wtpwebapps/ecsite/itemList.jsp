@@ -66,7 +66,6 @@
                        <p>ItemList</p>
                </div>
                <div>
-               <s:iterator value="itemInfoList">
                <s:if test="itemInfoList == null">
                         <h3>商品情報はありません。</h3>
                </s:if>
@@ -79,18 +78,19 @@
                                  <th>在庫数</th>
                                  <th>登録日</th>
                         </tr>
+                        <s:iterator value="itemInfoList">
                         <tr>
                                  <td><s:property value="itemName"/></td>
                                  <td><s:property value="itemPrice"/><span>円</span></td>
                                  <td><s:property value="itemStock"/><span>個</span></td>
                                  <td><s:property value="insert_date"/></td>
                         </tr>
+                        </s:iterator>
                         </table>
                         <s:form action="ItemListDeleteConfirmAction">
                                  <s:submit value="削除"/>
                         </s:form>
                </s:else>
-               </s:iterator>
                <div id="text-right">
                    <p>管理者画面へ戻る場合は<a href='<s:url action="AdminAction"/>'>こちら</a></p>
                </div>

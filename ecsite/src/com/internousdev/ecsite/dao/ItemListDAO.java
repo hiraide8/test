@@ -25,7 +25,7 @@ public class ItemListDAO {
 				dto.setItemName(resultSet.getString("item_name"));
 				dto.setItemPrice(resultSet.getInt("item_price"));
 				dto.setItemStock(resultSet.getInt("item_stock"));
-				dto.setInsert_Date(resultSet.getString("insert_date"));
+				dto.setInsert_date(resultSet.getString("insert_date"));
 				itemInfoDTO.add(dto);
 			}
 		}catch(Exception e){
