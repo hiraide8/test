@@ -14,10 +14,10 @@ public class ItemListAction extends ActionSupport implements SessionAware{
 	ItemListDAO itemListDAO = new ItemListDAO();
 	private ArrayList<ItemInfoDTO> itemInfoList = new ArrayList<ItemInfoDTO>();
 	private Map<String, Object> session;
-	private ItemInfoDTO itemInfoDTO = new ItemInfoDTO();
+	ItemInfoDTO dto = new ItemInfoDTO();
 
 	public String execute() throws SQLException{
-		session.put("itemName", itemInfoDTO.getItemName());
+		session.put("itemName", dto.getItemName());
 		if(!session.containsKey("itemName")){
 			itemInfoList = null;
 		}
@@ -40,14 +40,6 @@ public class ItemListAction extends ActionSupport implements SessionAware{
 	@Override
 	public void setSession(Map<String, Object> session){
 		this.session = session;
-	}
-
-	public ItemInfoDTO getItemInfoDTO(){
-		return itemInfoDTO;
-	}
-
-	public void setItemInfoDTO(ItemInfoDTO itemInfoDTO){
-		this.itemInfoDTO = itemInfoDTO;
 	}
 
 }
