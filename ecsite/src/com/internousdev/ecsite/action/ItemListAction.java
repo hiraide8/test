@@ -14,13 +14,12 @@ public class ItemListAction extends ActionSupport implements SessionAware{
 	ItemListDAO itemListDAO = new ItemListDAO();
 	private ArrayList<ItemInfoDTO> itemInfoList = new ArrayList<ItemInfoDTO>();
 	private Map<String, Object> session;
-	ItemInfoDTO dto = new ItemInfoDTO();
 
 	public String execute() throws SQLException{
-		session.put("itemName", dto.getItemName());
+		/*session.put("itemName", itemInfoList.get(0).getItemName());
 		if(!session.containsKey("itemName")){
 			itemInfoList = null;
-		}
+		}*/
 		itemInfoList = itemListDAO.getItemListInfo();
 		return SUCCESS;
 	}
